@@ -22,7 +22,7 @@ lib-cov
 coverage
 *.lcov
 
-# nyc test coverage
+# nyc utilsTest coverage
 .nyc_output
 
 # Grunt intermediate storage (https://gruntjs.com/creating-plugins#storing-task-files)
@@ -70,7 +70,7 @@ typings/
 
 # dotenv environment variables file
 .env
-.env.test
+.env.utilsTest
 
 # parcel-bundler cache (https://parceljs.org/)
 .cache
