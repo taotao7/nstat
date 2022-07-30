@@ -45,6 +45,8 @@ const getAuthorCommitString = (
   return shell.exec(buildGitCommand(start, end, auth), { silent: true }).stdout;
 };
 
+const calculateCommitLine = () => {};
+
 module.exports = {
   checkGit,
   getAuthorCommitString,

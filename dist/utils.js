@@ -37,7 +37,6 @@ const buildGitCommand = (start, end, auth) => {
 };
 const getAuthorCommitString = (start, end, auth) => {
     checkGit();
-    console.log(buildGitCommand(start, end, auth));
     return shelljs_1.default.exec(buildGitCommand(start, end, auth), { silent: true }).stdout;
 };
 module.exports = {
