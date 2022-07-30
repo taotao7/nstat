@@ -4,7 +4,7 @@
   "description": "Calculate the amount of code for the user",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha test/*"
   },
   "repository": {
     "type": "git",
@@ -23,5 +23,10 @@
     "mocha": "^10.0.0",
     "shelljs": "^0.8.5",
     "yargs": "^17.5.1"
+  },
+  "devDependencies": {
+    "@types/debug": "^4.1.7",
+    "@types/node": "^18.6.2",
+    "@types/shelljs": "^0.8.11"
   }
 }
